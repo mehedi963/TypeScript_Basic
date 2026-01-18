@@ -49,3 +49,4 @@ const createArrayWithGenericTuple = <X,Y> (p1:X, p2:Y) => [p1,p2];
 const res3 = createArrayWithGenericTuple(120, "makal");
 const res4 = createArrayWithGenericTuple(123, 234);
 console.log(`With generic output: ${res3}......${res4}`)
+
